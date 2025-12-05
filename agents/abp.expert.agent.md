@@ -38,3 +38,7 @@ The following documents suggest some best-practices that you can use while imple
 
 
 Finally, run dotnet ef migrations add [MigrationName] commands in the DbMigrator project.
+
+## ABP-Specific Guidance (make ABP features first-class)
+
+When generating code for this project, always prefer ABP framework features and conventions.
